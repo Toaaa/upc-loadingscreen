@@ -1,12 +1,26 @@
+<!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css/main.css.php">
-        <script src="tips.js"></script>
-        <script src="api/img/img.js"></script>
-    </head>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UPC-Loadingscreen | Administrator</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/css/materialize.css">
+	<script src="../assets/js/jquery-3.min.js"></script>
+	<script src="../assets/js/cycle2.min.js"></script>
+	<script src="../assets/js/loadingScreen.js"></script>
+	<link rel="stylesheet" href="/assets/css/main.css.php">
+	<script src="../title.js"></script>
+	<script src="../sub.js"></script>
+	<script src="../tips.js"></script>
+    <script src="../api/img/img.js"></script>
+</head>
+
 <body style="background-image: url('api/img/garage.jpg');">
     <div id="last-img" class="" style="background-image: url('api/img/gbay.jpg');"></div>
     <div class="tip-box">
@@ -43,4 +57,5 @@
         test();
     </script>
 
-</body></html>
+</body>
+</html>

@@ -55,7 +55,7 @@ if((isset($_POST["pw"]) && $_POST["pw"] == "daspasswortistadmin") || (isset($_SE
                 document.getElementById("pw").value = pw;
                 document.getElementById("login-form").submit();
             }
-            
+
             login();
         </script>
     </form>
@@ -163,8 +163,8 @@ if((isset($_POST["pw"]) && $_POST["pw"] == "daspasswortistadmin") || (isset($_SE
         }
 
         function fileFormData(file) {
-            var file_data = file;   
-            var form_data = new FormData();                  
+            var file_data = file;
+            var form_data = new FormData();
             form_data.append('file', file_data);
             return form_data;
         }
@@ -219,7 +219,7 @@ if((isset($_POST["pw"]) && $_POST["pw"] == "daspasswortistadmin") || (isset($_SE
             del.classList.add("far");
             del.classList.add("fa-times-circle");
             del.setAttribute("onclick","removeTip(this.parentElement,'"+tip_content+"')");
-            tip_div.appendChild(del); 
+            tip_div.appendChild(del);
         }
 
         function changeTime(time) {

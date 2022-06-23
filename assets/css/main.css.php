@@ -21,6 +21,7 @@ foreach ($files as $img){
 }
 $delay = 1000;
 ?>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 
 html {
@@ -50,16 +51,21 @@ body {
 }
 
 .tip-box {
-      width: 80%;
-      margin: 0 10%;
-      bottom: 100px;
+      width: 30%;
       position: absolute;
+      top: 140px;
+      padding-left: 20px;
+      left: 25px;
+      background: rgba(100,100,100,0.4);
+      border-top: 3px ridge #729DFF;
+      border-bottom: 3px ridge #729DFF;
+
 }
 
 .tip {
       padding: 30px;
       font-size: 25px;
-      text-align: center;
+      height: 250px;
       color: white;
 }
 
@@ -88,11 +94,11 @@ body {
     width: 170px;
     padding: 5px;
     height: 40px;
-    background: white;
+    background: #444;
     position: fixed;
     bottom: 20px;
     left: 20px;
-    border-radius: 5px;
+    border-top: 3px ridge #729DFF;
 }
 
 .avoro p:first-child {
@@ -102,16 +108,6 @@ body {
     margin: 0;
     left: 13px;
     top: 16px;
-}
-
-.avoro p:last-child {
-    display: inline-block;
-    position: absolute;
-    font-weight: 600;
-    font-size: 20px;
-    margin: 0;
-    left: 115px;
-    top: 11px;
 }
 
 .avoro img {
