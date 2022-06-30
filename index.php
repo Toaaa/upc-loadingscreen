@@ -28,7 +28,7 @@
     </div>
     <div class="logo"></div>
     <div class="avoro">
-        <p>hosted by</p>
+        <p>Hosted by</p>
         <img src="img/avoro.png" alt="A">
         <p>VORO</p>
     </div>
